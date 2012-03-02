@@ -68,6 +68,7 @@ td { vertical-align: top; }
 
 $main-color: #ce4dd6;
 $style: solid;
+$my-font: Arial;
 
 @mixin rounded-top {
   $side: top;
@@ -82,6 +83,7 @@ $style: solid;
   border-bottom: {
     color: $main-color;
     style: $style;
+    font: $my-font;
   }
 }
 
